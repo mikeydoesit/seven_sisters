@@ -1,3 +1,9 @@
+<script>
+    import { 
+        Lightbox
+    } from 'svelte-lightbox'
+</script>
+
 <style lang="postcss">
     .profile_section {
         @apply flex flex-row my-8 px-2;
@@ -29,7 +35,9 @@
     <div class="left_col">
         <div class="avatar_wrapper">
             <div class="avatar_border">
-                <img src="/images/seven-african-sisters.png" />
+                <Lightbox description="Seven Sisters Salon">
+                    <img src="/images/seven-african-sisters.png" />
+                </Lightbox>
             </div>
         </div>
     </div>

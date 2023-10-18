@@ -23,7 +23,15 @@
 
 
 <section class="gallery">
-<LightboxGallery>
+<LightboxGallery
+    arrowsConfig={
+        {
+            character:'hide'
+        }
+    }
+    showCloseButton={false}
+
+>
     <!-- Layout-->
     <svelte:fragment slot="thumbnail">
         <div class="image_grid">

@@ -13,9 +13,9 @@
         padding-right: 0.7rem;
     }
 }
-.svelte-lightbox-thumbnail {
+.image_grid .svelte-lightbox-thumbnail {
     @apply h-36;
 }
-.svelte-lightbox-thumbnail img {
+.image_grid .svelte-lightbox-thumbnail img {
     @apply h-full w-full object-cover;
 }
