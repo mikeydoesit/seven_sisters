@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+html {
+    font-family: 'Poppins', system-ui, sans-serif;
+    max-width: 576px;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+}
